@@ -1,30 +1,115 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <meta name="theme-color" content="#11110e">
+    <meta name="description" content="The Criddle Files is coming. Hear 3SLIMEY (ft. Kevin Shields), the new single from Mr Criddle & The Crups, out now on SoundCloud.">
+    <title>Mr Criddle & The Crups — The Criddle Files</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Mr Criddle and The Crups, home">MC<span>&</span>TC</a>
+        <span class="header-note">ANOTHER WORLD IS INCOMING</span>
+        <a class="header-link" href="#single">3SLIMEY <span aria-hidden="true">↗</span></a>
+    </header>
 
-    <nav>
-        <h2>My Website</h2>
-        <a href="#about">About</a>
-    </nav>
+    <main>
+        <section class="hero" id="top" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="live-dot"></span> THE CRIDDLE FILES — INCOMING</p>
+                <h1 id="hero-title">MR CRIDDLE<br><span class="ampersand">&</span> THE CRUPS<span class="period">.</span></h1>
+                <div class="hero-bottom">
+                    <p class="hero-subtitle">THE NEXT ERA<br>IS ALMOST HERE<span class="acid">.</span></p>
+                    <a class="round-link" href="#single" aria-label="Discover the new single, 3SLIMEY">
+                        <span aria-hidden="true">↓</span>
+                    </a>
+                </div>
+            </div>
 
-    <section class="hero">
-        <h1>Welcome to My Website!</h1>
-        <p>This is my first website built using VS Code.</p>
-        <button onclick="sayHello()">Click Me!</button>
-    </section>
+            <div class="orbital-art" aria-hidden="true">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="orbit orbit-three"></div>
+                <div class="record">
+                    <div class="record-label">MC<span>&</span>TC</div>
+                    <span class="record-hole"></span>
+                </div>
+                <span class="art-caption">TRANSMISSION 001<br>RECEIVED</span>
+                <span class="art-cross">✳</span>
+            </div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my little corner of the internet.</p>
-    </section>
+            <div class="hero-index"><span>01</span> / THE BEGINNING</div>
+            <button class="signal-button" id="signal-toggle" type="button" aria-pressed="false">
+                <span class="button-icon" aria-hidden="true">✳</span>
+                <span>AMPLIFY THE SIGNAL</span>
+            </button>
+        </section>
+
+        <div class="ticker" aria-label="3SLIMEY featuring Kevin Shields, out now">
+            <div class="ticker-track" aria-hidden="true">
+                <span>3SLIMEY FT. KEVIN SHIELDS — OUT NOW</span><span class="ticker-star">✳</span>
+                <span>THE CRIDDLE FILES — INCOMING</span><span class="ticker-star">✳</span>
+                <span>3SLIMEY FT. KEVIN SHIELDS — OUT NOW</span><span class="ticker-star">✳</span>
+                <span>THE CRIDDLE FILES — INCOMING</span><span class="ticker-star">✳</span>
+            </div>
+        </div>
+
+        <section class="single-section" id="single" aria-labelledby="single-title">
+            <div class="section-label"><span>01 — THE FIRST SIGN</span><span>OUT NOW</span></div>
+            <div class="single-content">
+                <div class="single-heading">
+                    <p class="eyebrow">THE NEW SINGLE · FT. KEVIN SHIELDS</p>
+                    <h2 id="single-title">3<span>slimey</span></h2>
+                    <p class="single-description">The first transmission from<br><em>The Criddle Files</em>. Out now.</p>
+                    <a class="listen-link" href="https://soundcloud.com/mrcriddleandthecrups/3slimey-ft-kevin-shields" target="_blank" rel="noopener noreferrer">
+                        LISTEN ON SOUNDCLOUD <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+                <div class="single-art" aria-label="3SLIMEY single artwork">
+                    <span class="art-topline">MR CRIDDLE & THE CRUPS</span>
+                    <span class="art-three">3</span>
+                    <span class="art-slimy">SLIMEY</span>
+                    <span class="art-bottomline">THE FIRST TRANSMISSION · OUT NOW</span>
+                    <span class="art-glare" aria-hidden="true"></span>
+                </div>
+            </div>
+            <div class="soundcloud-player">
+                <div class="player-label"><span>THE FIRST TRANSMISSION</span><span>3SLIMEY · FT. KEVIN SHIELDS</span></div>
+                <iframe
+                    title="Listen to 3SLIMEY featuring Kevin Shields on SoundCloud"
+                    width="100%"
+                    height="400"
+                    scrolling="no"
+                    frameborder="no"
+                    allow="autoplay; encrypted-media"
+                    loading="lazy"
+                    src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2411662665&amp;color=%23d7ff32&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="album-section" aria-labelledby="album-title">
+            <p class="eyebrow"><span class="live-dot"></span> THE UPCOMING ALBUM</p>
+            <h2 id="album-title">THE CRIDDLE<br>FILES<span>THE ALBUM IS COMING.</span></h2>
+            <div class="album-bottom">
+                <p>The next chapter has a name.<br>The Criddle Files is coming.</p>
+                <a class="text-link" href="https://soundcloud.com/mrcriddleandthecrups" target="_blank" rel="noopener noreferrer">FOLLOW THE SIGNAL <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="album-stamp" aria-hidden="true">MORE<br>SOON<br>✳</div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="wordmark" href="#top">MC<span>&</span>TC</a>
+        <span>MR CRIDDLE & THE CRUPS</span>
+        <a href="https://soundcloud.com/mrcriddleandthecrups" target="_blank" rel="noopener noreferrer">SOUNDCLOUD ↗</a>
+    </footer>
 
     <script src="script.js"></script>
 </body>
