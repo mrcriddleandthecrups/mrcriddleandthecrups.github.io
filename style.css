@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f3ff;
+    color: #333;
+}
+
+nav {
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7655b5;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #7655b5;
+}
+
+button {
+    background: #7655b5;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#about {
+    text-align: center;
+    padding: 50px;
+}
